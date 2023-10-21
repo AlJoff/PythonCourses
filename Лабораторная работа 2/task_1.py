@@ -9,7 +9,7 @@ while True:
     money_capital += salary     # Добавление зарплаты к подушке
     money_capital -= spend      # Вычитание ежемесячных расходов из подушки
 
-    if money_capital <= 0:
+    if money_capital < 0:
         break                   # Прерывание цикла если подушка опустошилась
 
     spend += spend * increase   # Увеличение ежемесяных трат за счёт роста цен
