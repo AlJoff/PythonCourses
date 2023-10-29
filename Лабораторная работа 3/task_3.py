@@ -62,4 +62,4 @@ letters_count_dict = count_letters(main_str)
 letters_frequency_dict = calculate_frequency(letters_count_dict)
 
 for letter, freq in letters_frequency_dict.items():
-    print(f'{letter}: {freq: .2f}')
+    print(f'{letter}: {freq:.2f}')
